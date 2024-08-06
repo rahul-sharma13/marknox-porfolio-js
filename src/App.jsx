@@ -9,18 +9,18 @@ import About from "./routes/About";
 
 const App = () => {
     return (
-        <>
+        <div className="font-montserrat">
             <Header />
             <StairTransition />
             <PageTransition>
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/work" element={<Work />} />
-                <Route path="/contact" element={<Contact />} />
+                    <Route path="/contact" element={<Contact />} />
                     <Route path="/about" element={<About />} />
                 </Routes>
             </PageTransition>
-        </>
+        </div>
     );
 };
 
