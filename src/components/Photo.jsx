@@ -27,7 +27,7 @@ const Photo = () => {
                     }}
                 >
                     <img
-                        src="/src/assets/photo.png"
+                        src="public/photo.png"
                         fill
                         alt="profile"
                         className="object-contain"
